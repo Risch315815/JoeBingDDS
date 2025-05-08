@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -19,7 +20,27 @@ export default function About() {
               Dr. Bing's philosophy centers around creating a comfortable, stress-free environment while delivering personalized care that meets each patient's unique needs.
             </p>
           </div>
-          <div className="bg-gray-100 p-8 rounded-lg">
+          <div className="relative h-[400px] rounded-lg overflow-hidden">
+            <Image
+              src="/images/portrait-徐振傑-牙醫.png"
+              alt="Dr. Joe Bing in his dental practice"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="relative h-[400px] rounded-lg overflow-hidden order-2 md:order-1">
+            <Image
+              src="/images/banner.jpg"
+              alt="Modern dental office environment"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="bg-gray-100 p-8 rounded-lg order-1 md:order-2">
             <h3 className="text-xl font-semibold mb-4">Education & Credentials</h3>
             <ul className="space-y-3">
               <li className="flex items-start">

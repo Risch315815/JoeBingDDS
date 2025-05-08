@@ -6,8 +6,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dr. Joe Bing DDS - Professional Dental Care',
-  description: 'Welcome to Dr. Joe Bing\'s dental practice. Providing exceptional dental care with a focus on patient comfort and satisfaction.',
+  title: 'Dr. Joe Bing Dental Practice',
+  description: 'Professional dental care services by Dr. Joe Bing',
+  icons: {
+    icon: '/icons/logo-徐振傑-牙醫.png',
+    apple: '/icons/logo-徐振傑-牙醫.png',
+  },
 }
 
 export default function RootLayout({
