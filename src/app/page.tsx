@@ -46,22 +46,55 @@ export default function Home() {
       {/* Services Overview */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">專業認證</h2>
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <img 
+              src="/JoeBingDDS/images/Changeng_PGY_Certificate.png" 
+              alt="Changeng PGY Certificate"
+              className="w-64 h-auto object-contain" 
+            />
+            <div>
+              <h3 className="text-xl font-semibold">台北長庚紀念醫院 訓練證書</h3>
+
+            </div>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">🦷</div>
-              <h3 className="text-xl font-semibold mb-2">General Dentistry</h3>
-              <p className="text-gray-600">Comprehensive dental care including cleanings, fillings, and preventive treatments.</p>
+
+            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
+            <div className="mb-4">
+              <img 
+                src="/JoeBingDDS/images/TAID_implant_certificate.png" 
+                alt="TAID_implant_certificate"
+                className="w-auto h-auto" 
+              />
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">😁</div>
-              <h3 className="text-xl font-semibold mb-2">Cosmetic Dentistry</h3>
-              <p className="text-gray-600">Transform your smile with our cosmetic procedures including whitening and veneers.</p>
+              <h3 className="text-xl font-semibold mb-2">台灣牙醫植體醫學會 會員</h3>
             </div>
+
+            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
+            <div className="mb-4">
+              <img 
+                src="/JoeBingDDS/images/IAOP2023_Presentation.png" 
+                alt="IAOP2023_Presentation"
+                className="w-auto h-auto" 
+              />
+            </div>
+              <h3 className="text-xl font-normal mb-2">IAOP 2023:</h3>
+              <h3 className="text-xl font-semibold mb-2">21st International Congress of</h3>
+              <h3 className="text-xl font-semibold mb-2">Oral Pathology and Medicine</h3>
+              <h3 className="text-xl font-normal mb-2">Poster Presentation</h3>
+            </div>
+
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">🦷</div>
-              <h3 className="text-xl font-semibold mb-2">Restorative Care</h3>
-              <p className="text-gray-600">Advanced solutions for damaged or missing teeth, including crowns and implants.</p>
+              <div className="mb-4">
+              <img 
+                src="/JoeBingDDS/images/TADS_TMJ_Presentation.png" 
+                alt="TADS_TMJ_Presentation"
+                className="w-auto h-auto" 
+              />
+            </div>
+              <h3 className="text-xl font-normal mb-2">2023年中華牙醫學年會：</h3>
+              <h3 className="text-xl font-semibold mb-2">針灸減緩顳顎關節障礙症候群之疼痛</h3>
             </div>
           </div>
         </div>
