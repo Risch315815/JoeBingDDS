@@ -111,6 +111,8 @@ export default function Home() {
                   teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
                 </a>
               </p>
+
+              <hr className="my-8 border-t border-gray-300 w-full max-w-lg mx-auto" />
               
               <p className="text-gray-800 mb-4">
                 <a href="https://doi.org/10.1016/j.jds.2024.12.012" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
@@ -121,13 +123,13 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center md:items-start gap-6 justify-center">
+            <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
               <img 
                 src="/JoeBingDDS/images/Changeng_IRB_Certificate.png" 
                 alt="Changeng IRB Certificate"
                 className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0" 
               />
-              <div>
+              <div className="flex flex-col justify-center">
                 <h3 className="text-lg md:text-xl font-semibold mb-2">長庚醫院 研究計畫主持人：</h3>
                 <p className="text-base md:text-xl font-normal">
                   Diagnosis and treatment of dentinogenic ghost<br className="hidden md:block" />
