@@ -19,7 +19,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <img src="/JoeBingDDS/images/doctor.png" className="rounded-lg object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
+            <img src="/JoeBingDDS/images/doctor.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
           </div>
           <div>
             <div className="text-gray-800 text-lg mb-6">
@@ -60,7 +60,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">台灣牙醫植體醫學會 會員</h3>
             </div>
 
-            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
+            <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
                 src="/JoeBingDDS/images/IAOP2023_Presentation.png" 
@@ -129,7 +129,7 @@ export default function Home() {
                 alt="Changeng IRB Certificate"
                 className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0" 
               />
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center text-center md:text-left">
                 <h3 className="text-lg md:text-xl font-semibold mb-2">長庚醫院 研究計畫主持人：</h3>
                 <p className="text-base md:text-xl font-normal">
                   Diagnosis and treatment of dentinogenic ghost<br className="hidden md:block" />
