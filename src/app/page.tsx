@@ -10,7 +10,35 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center z-20">
           <div className="text-white max-w-2xl">
-            <h1 className="text-5xl font-bold mb-4">實證醫學。微創治療</h1>
+            <h3 className="text-5xl font-bold mb-4">實證醫學。微創治療</h3>
+          </div>
+        </div>
+      </section>
+
+      {/* Doctor Info Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center">
+            <Image src="/images/doctor.jpg" alt="徐振傑醫師" width={400} height={500} className="rounded-lg object-cover" />
+          </div>
+          <div>
+            <div className="text-gray-800 text-lg mb-6 whitespace-pre-line">
+台南一中
+高雄醫學大學牙醫系2022年畢業
+台中榮民總醫院實習
+台北長庚紀念醫院住院醫師
+            </div>
+            <hr className="my-6" />
+            <h2 className="text-2xl font-bold mb-4">治療項目</h2>
+            <ul className="text-gray-700 text-lg space-y-1">
+              <li>牙周治療</li>
+              <li>根管治療</li>
+              <li>美學假牙贋復</li>
+              <li>全口重建</li>
+              <li>兒童牙科</li>
+              <li>阻生齒拔除</li>
+              <li>人工植牙</li>
+            </ul>
           </div>
         </div>
       </section>
