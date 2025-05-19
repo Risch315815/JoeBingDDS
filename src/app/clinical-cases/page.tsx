@@ -13,12 +13,12 @@ export default function ClinicalCases() {
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
-                src="/JoeBingDDS/images/Aunt_Jennie.png" 
+                src="/JoeBingDDS/images/Aunt_Jennie.jpg" 
                 alt="直接覆髓案例"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Jennie/002.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/002.png" 
                 alt="追蹤"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
@@ -44,32 +44,32 @@ export default function ClinicalCases() {
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
-                src="/JoeBingDDS/images/Uncle_Brian.png" 
+                src="/JoeBingDDS/images/Uncle_Brian.jpg" 
                 alt="根管重新治療案例"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/001.jpg" 
+                src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/001.jpg" 
                 alt="根管治療前X光"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/002.jpg" 
+                src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/002.jpg" 
                 alt="牙髓底部破洞"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/003.jpg" 
+                src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/003.jpg" 
                 alt="IAF"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/004.jpg" 
+                src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/004.jpg" 
                 alt="MAF"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/005.jpg" 
+                src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/005.jpg" 
                 alt="治療完成"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
@@ -92,32 +92,32 @@ export default function ClinicalCases() {
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/001.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/001.png" 
                 alt="初診"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/002.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/002.png" 
                 alt="GP tracing"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/003.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/003.png" 
                 alt="IAF"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/004.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/004.png" 
                 alt="MAF-1"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/005.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/005.png" 
                 alt="MAF-2"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/006.png" 
+                src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/006.png" 
                 alt="治療完成"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
