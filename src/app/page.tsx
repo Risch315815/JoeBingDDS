@@ -10,7 +10,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center z-20">
           <div className="text-white max-w-2xl">
-            <h4 className="text-5xl font-normal mb-4">實證醫學。微創治療</h4>
+            <h4 className="text-5xl font-normal mb-4">
+              實證醫學。<br className="sm:hidden" />微創治療
+            </h4>
           </div>
         </div>
       </section>

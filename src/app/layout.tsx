@@ -24,11 +24,15 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="bg-black shadow-md">
           <nav className="container mx-auto px-4 py-4">
-            <div className="flex justify-between items-center">
-              <div className="text-2xl font-normal text-white">徐振傑 牙醫師 | Chen-Chieh Hsu D.D.S.</div>
-              <div className="space-x-6">
-                <a href="/" className="text-gray-300 hover:text-gold-400">首頁</a>
-                <a href="/about" className="text-gray-300 hover:text-gold-400">認證</a>
+            <div className="flex flex-col sm:flex-row justify-between items-center">
+              <div className="text-2xl font-normal text-white text-center sm:text-left mb-4 sm:mb-0">
+                徐振傑 牙醫師<br className="sm:hidden" /> 
+                <span className="hidden sm:inline">|</span> 
+                <span className="sm:hidden">Dr.</span>Chen-Chieh Hsu D.D.S.<br className="sm:hidden" />
+              </div>
+              <div className="flex flex-wrap justify-center space-x-6">
+                <a href="/" className="text-gray-300 hover:text-gold-400">首頁<br className="sm:hidden" /></a>
+                <a href="/about" className="text-gray-300 hover:text-gold-400">認證<br className="sm:hidden" /></a>
                 <a href="/services" className="text-gray-300 hover:text-gold-400">看診時段</a>
               </div>
             </div>
