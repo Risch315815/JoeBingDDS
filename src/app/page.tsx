@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Certificate Section */}
-      <section id="certificate" className="py-16 bg-black">
+      <section id="#certificate" className="py-16 bg-black">
         <div className="container mx-auto px-4">
           <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">專業認證</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -274,7 +274,7 @@ export default function Home() {
 
 
       {/* Service Hours Section */}
-      <section id="schedule" className="py-16 bg-white">
+      <section id="#schedule" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">看診時段</h2>
           
