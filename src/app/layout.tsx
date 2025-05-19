@@ -32,8 +32,8 @@ export default function RootLayout({
               </div>
               <div className="flex flex-wrap justify-center space-x-6">
                 <a href="/" className="text-gray-300 hover:text-gold-400">首頁<br className="sm:hidden" /></a>
-                <a href="/about" className="text-gray-300 hover:text-gold-400">認證<br className="sm:hidden" /></a>
-                <a href="/services" className="text-gray-300 hover:text-gold-400">看診時段</a>
+                <a href="/#certificate" className="text-gray-300 hover:text-gold-400">認證<br className="sm:hidden" /></a>
+                <a href="/#schedule" className="text-gray-300 hover:text-gold-400">看診時段</a>
               </div>
             </div>
           </nav>
