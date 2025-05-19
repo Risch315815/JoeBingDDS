@@ -4,8 +4,9 @@ export default function ClinicalCases() {
   return (
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">更多臨床案例</h1>
 
+        {/* OD Section */}
+        <h2 className="text-4xl font-bold text-center mb-12">牙體復型</h2>
         <div className="max-w-5xl mx-auto space-y-16">
 
           {/* Direct Pulp Capping Case */}
@@ -33,8 +34,13 @@ export default function ClinicalCases() {
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Root Canal Retreatment - Uncle Brian Case */}
+        {/* Endo Section */}
+        <h2 className="text-4xl font-bold text-center mb-12">牙髓病症治療</h2>
+        <div className="max-w-5xl mx-auto space-y-16">
+
+          {/* Difficult Root Canal Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
@@ -43,18 +49,28 @@ export default function ClinicalCases() {
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/ima-13.jpg" 
+                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/001.jpg" 
                 alt="根管治療前X光"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/ima-3.jpg" 
-                alt="根管治療過程"
+                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/002.jpg" 
+                alt="牙髓底部破洞"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
               <img 
-                src="/JoeBingDDS/images/ima-0-2.jpg" 
-                alt="根管治療完成"
+                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/003.jpg" 
+                alt="IAF"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/004.jpg" 
+                alt="MAF"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Uncle_Brian/005.jpg" 
+                alt="治療完成"
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
             </div>
@@ -71,13 +87,62 @@ export default function ClinicalCases() {
             </div>
           </div>
 
-          {/* Back Button */}
-          <div className="text-center">
-            <a href="/JOEBINGDDS/" className="inline-block bg-gold-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gold-600 transition-colors shadow-md">
-              返回首頁
-            </a>
+            
+          {/* Restricted Mouth Opening Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
+            <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/001.png" 
+                alt="初診"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/002.png" 
+                alt="GP tracing"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/003.png" 
+                alt="IAF"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/004.png" 
+                alt="MAF-1"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/005.png" 
+                alt="MAF-2"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+              <img 
+                src="/JoeBingDDS/images/clinical-cases/Aunt_Merill/006.png" 
+                alt="治療完成"
+                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+              />
+            </div>
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Merill</h3>
+              <p className="text-base md:text-xl font-normal">
+                過去曾因為口腔癌切除部分顎骨，伴有張口困難(只有一般人2/3)<br />
+                X光檢查到右下大臼齒有J-shaped Lesion，需考慮牙根縱裂，但因為癌症病史以保守治療優先<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以 M3-Pro Gold系統 清潔根管至 #25/.06<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以 VERICOM Well-Root ST 做根管封填<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 成功封填
+              </p>
+            </div>
           </div>
+
         </div>
+
+        {/* Back Button */}
+        <div className="text-center mt-16">
+          <a href="/JoeBingDDS/" className="inline-block bg-gold-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gold-600 transition-colors shadow-md">
+            返回首頁
+          </a>
+        </div>
+
       </div>
     </div>
   )
