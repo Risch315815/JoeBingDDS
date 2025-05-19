@@ -6,7 +6,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px]">
-        <Image src="/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src="/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center z-20">
           <div className="text-white max-w-2xl">
@@ -19,7 +19,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <Image src="/public/images/portrait-徐振傑-牙醫.png" width={1000} height={1500} className="rounded-lg object-cover" alt="徐振傑醫師" />
+            <img src="/images/portrait-徐振傑-牙醫.png" className="rounded-lg object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
           </div>
           <div>
             <div className="text-gray-800 text-lg mb-6 whitespace-pre-line">
