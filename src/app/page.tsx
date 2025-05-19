@@ -19,7 +19,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <img src="/JoeBingDDS/images/doctor.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
+            <img src="/JoeBingDDS/images/徐振傑-牙醫師.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
           </div>
           <div>
 
@@ -164,13 +164,13 @@ export default function Home() {
           {/* Difficult Endo Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Uncle_Brian.png" 
+              src="/JoeBingDDS/images/Uncle_Brian.jpg" 
               alt="Uncle_Brian"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
-              <p className="text-base md:text-xl font-normal">
+              <h3 className="text-gold-300 text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
+              <p className="text-gold-300 text-base md:text-xl font-normal">
                 右下第一大臼齒咬到就會痛<br />
                 移除填補物發現牙髓底部有三個大洞<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 找到所有根管並用生物陶瓷修補大洞<br />
@@ -184,13 +184,13 @@ export default function Home() {
           {/* Extensive Caries Restoration Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Lily.png" 
+              src="/JoeBingDDS/images/Aunt_Lily.jpg" 
               alt="Aunt_Lily"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Lily</h3>
-              <p className="text-base md:text-xl font-normal">
+              <h3 className="text-gold-300 text-lg md:text-xl font-bold mb-2">#Aunt_Lily</h3>
+              <p className="text-gold-300 text-base md:text-xl font-normal">
                 左上第二小臼齒容易卡食物，且有蛀牙痛<br />
                 牙齒嚴重蛀牙至牙齦下1-2mm，牙髓無活性<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 先花一診60分鐘調整遠心側牙齦、重建齒質並移除發炎神經<br />
@@ -203,13 +203,13 @@ export default function Home() {
           {/* Casual Endo Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Hollie.png" 
+              src="/JoeBingDDS/images/Aunt_Hollie.jpg" 
               alt="Aunt_Hollie"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Hollie</h3>
-              <p className="text-base md:text-xl font-normal">
+              <h3 className="text-gold-300 text-lg md:text-xl font-bold mb-2">#Aunt_Hollie</h3>
+              <p className="text-gold-300 text-base md:text-xl font-normal">
                 左上側門牙臉頰側牙齦牙根處長膿包已經半年，有異味<br />
                 牙齒根管充填不緻密，根尖有明顯發炎，且牙冠頰側齒質穿孔<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 一診60分鐘：先修復頰側齒質穿孔，再移除舊的根管填補物；根管除菌後，以生物陶瓷達成緻密封填<br />
@@ -221,13 +221,13 @@ export default function Home() {
           {/* Deep Supernumerary Tooth Extraction Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/8-year-old_Abby.png" 
+              src="/JoeBingDDS/images/8-year-old_Abby.jpg" 
               alt="8-year-old_Abby"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#8-year-old_Abby</h3>
-              <p className="text-base md:text-xl font-normal">
+              <h3 className="text-gold-300 text-lg md:text-xl font-bold mb-2">#8-year-old_Abby</h3>
+              <p className="text-gold-300 text-base md:text-xl font-normal">
                 上顎左右正中門牙之間卡著倒長的多生牙，可能導致後續牙齒排列不整<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 以最微創的方式翻開上顎牙齦，將多生牙整顆取出<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 將牙齦精準對回原位，術後幾乎看不出傷口
@@ -238,13 +238,13 @@ export default function Home() {
           {/* Direct Pulp Capping Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Jennie.png" 
+              src="/JoeBingDDS/images/Aunt_Jennie.jpg" 
               alt="Aunt_Jennie"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
-              <p className="text-base md:text-xl font-normal">
+              <h3 className="text-gold-300 text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
+              <p className="text-gold-300 text-base md:text-xl font-normal">
                 左上第二大臼齒容易卡食物，但不痛<br />
                 牙齒嚴重蛀牙至牙齦下2mm，牙髓有活性<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 移除所有蛀牙齒質，牙髓暴露直徑1mm以內<br />
@@ -260,7 +260,7 @@ export default function Home() {
       {/* Service Hours Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gold-300">看診時段</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">看診時段</h2>
           
           {/* Schedule Table */}
           <div className="overflow-x-auto mb-12">
@@ -341,10 +341,15 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-4">理想牙醫診所</h3>
                 <p className="text-xl mb-2">高雄市楠梓區旗楠路 86 號</p>
                 <p className="text-xl mb-2">(07)3553083</p>
+                <p className="text-xl mb-2">
+                  <a href="https://lin.ee/qrLZRzm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    https://lin.ee/qrLZRzm
+                  </a>
+                </p>
               </div>
               
               <div className="text-center md:text-right">
-                <img src="/JoeBingDDS/images/Ideal_Line.png" alt="理想牙醫診所LINE QR Code" className="w-40 h-40 mx-auto md:ml-auto" />
+                <img src="/JoeBingDDS/images/Ideal_Line.png" alt="理想牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>

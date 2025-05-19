@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dr. Joe Bing Dental Practice',
-  description: 'Professional dental care services by Dr. Joe Bing',
+  title: '徐振傑 牙醫師 | Dr.Chen-Chieh Hsu D.D.S.',
+  description: '徐振傑,牙醫師,牙醫,高雄,台南,一般牙科,家庭牙醫,牙周治療,根管治療,假牙,全口重建,全瓷牙冠,蛀牙,兒童牙科,乳牙拔牙,拔智齒,美白,貼片,3D齒雕,植牙',
   icons: {
     icon: '/icons/logo-徐振傑-牙醫.png',
     apple: '/icons/logo-徐振傑-牙醫.png',
