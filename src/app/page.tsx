@@ -22,13 +22,18 @@ export default function Home() {
             <img src="/JoeBingDDS/images/doctor.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
           </div>
           <div>
+
+            {/* Past Training */}
             <div className="text-gray-800 text-lg mb-6">
               <p className="mb-1">台南一中</p>
               <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
               <p className="mb-1">台中榮民總醫院 實習</p>
               <p className="mb-1">台北長庚紀念醫院 住院醫師</p>
             </div>
+
             <hr className="my-6" />
+            
+            {/* Treatment */}
             <h2 className="text-2xl font-bold mb-4">治療項目</h2>
             <ul className="text-gray-700 text-lg space-y-1">
               <li>牙周深層清潔</li>
@@ -39,17 +44,19 @@ export default function Home() {
               <li>一般阻生齒拔除</li>
               <li>植牙</li>
             </ul>
+
           </div>
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* Certificate Section */}
       <section className="py-16 bg-black">
         <div className="container mx-auto px-4">
           <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">專業認證</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
+            {/* Implant Certificate */}
+            <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
                 src="/JoeBingDDS/images/TAID_implant_certificate.png" 
@@ -60,6 +67,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">台灣牙醫植體醫學會 會員</h3>
             </div>
 
+            {/* IAOP Presentation */}
             <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
@@ -74,7 +82,8 @@ export default function Home() {
               <h3 className="text-xl font-normal mb-2">Poster Presentation</h3>
             </div>
 
-            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
+            {/* Presentation of TMD Research */}
+            <div className="bg-gold-200 p-6 shadow-md">
               <div className="mb-4">
               <img 
                 src="/JoeBingDDS/images/TADS_TMJ_Presentation.png" 
@@ -94,6 +103,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">學術論文</h2>
           
+          {/* Sinus Augmentation Case */}
           <div className="max-w-3xl mx-auto">
             <div className="mb-8">
               <p className="text-gray-800 mb-4">
@@ -104,6 +114,7 @@ export default function Home() {
                 </a>
               </p>
               
+              {/* Adolescent Tumor Conservative Removal Case */}
               <p className="text-gray-800 mb-4">
                 <a href="https://doi.org/10.1016/j.jds.2024.08.022" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
                   Hsu, C. C., Fang, H. M., Chiang, M. L., & Chen, J. K. (2025). Conservative management of 
@@ -114,6 +125,7 @@ export default function Home() {
 
               <hr className="my-8 border-t border-gray-300 w-full max-w-lg mx-auto" />
               
+              {/* Dentinogenic Ghost Cell Tumor Case */}
               <p className="text-gray-800 mb-4">
                 <a href="https://doi.org/10.1016/j.jds.2024.12.012" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
                   Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Successful treatment of mandibular central 
@@ -123,71 +135,222 @@ export default function Home() {
               </p>
             </div>
             
+            {/* Changeng IRB Research Host */}
             <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
               <img 
                 src="/JoeBingDDS/images/Changeng_IRB_Certificate.png" 
                 alt="Changeng IRB Certificate"
-                className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0" 
+                className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
               />
               <div className="flex flex-col justify-center text-center md:text-left">
                 <h3 className="text-lg md:text-xl font-semibold mb-2">長庚醫院 研究計畫主持人：</h3>
                 <p className="text-base md:text-xl font-normal">
-                  Diagnosis and treatment of dentinogenic ghost<br className="hidden md:block" />
+                  Diagnosis and treatment of dentinogenic ghost <br className="hidden md:block" />
                   cell tumor: a retrospective case study
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16">
+
+      {/* Clinical Cases Section */}
+      <section className="py-16 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-start space-x-4">
-              <div className="text-blue-600 text-2xl">✓</div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Experienced Team</h3>
-                <p className="text-gray-600">Our team of dental professionals brings years of experience and expertise to every procedure.</p>
-              </div>
+          <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">臨床案例</h2>
+
+          {/* Difficult Endo Retreatment Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <img 
+              src="/JoeBingDDS/images/Uncle_Brian.png" 
+              alt="Uncle_Brian"
+              className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
+            />
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
+              <p className="text-base md:text-xl font-normal">
+                右下第一大臼齒咬到就會痛<br />
+                移除填補物發現牙髓底部有三個大洞<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 找到所有根管並用生物陶瓷修補大洞<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 兩星期追蹤，可以正常咬東西
+              </p>
             </div>
-            <div className="flex items-start space-x-4">
-              <div className="text-blue-600 text-2xl">✓</div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Modern Technology</h3>
-                <p className="text-gray-600">We utilize the latest dental technology to ensure the best possible care for our patients.</p>
-              </div>
+
+            <hr className="my-8 border-t border-gray-300 w-full max-w-lg mx-auto" />
+          </div>
+
+          {/* Extensive Caries Restoration Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <img 
+              src="/JoeBingDDS/images/Aunt_Lily.png" 
+              alt="Aunt_Lily"
+              className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
+            />
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Lily</h3>
+              <p className="text-base md:text-xl font-normal">
+                左上第二小臼齒容易卡食物，且有蛀牙痛<br />
+                牙齒嚴重蛀牙至牙齦下1-2mm，牙髓無活性<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 先花一診60分鐘調整遠心側牙齦、重建齒質並移除發炎神經<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 再花一診40分鐘完成根管治療<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 一個星期追蹤，可以正常咬東西<br />
+              </p>
             </div>
-            <div className="flex items-start space-x-4">
-              <div className="text-blue-600 text-2xl">✓</div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Comfortable Environment</h3>
-                <p className="text-gray-600">We prioritize your comfort with a welcoming atmosphere and gentle care approach.</p>
-              </div>
+          </div>
+
+          {/* Casual Endo Retreatment Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <img 
+              src="/JoeBingDDS/images/Aunt_Hollie.png" 
+              alt="Aunt_Hollie"
+              className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
+            />
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Hollie</h3>
+              <p className="text-base md:text-xl font-normal">
+                左上側門牙臉頰側牙齦牙根處長膿包已經半年，有異味<br />
+                牙齒根管充填不緻密，根尖有明顯發炎，且牙冠頰側齒質穿孔<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 一診60分鐘：先修復頰側齒質穿孔，再移除舊的根管填補物；根管除菌後，以生物陶瓷達成緻密封填<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 兩星期追蹤，膿包消退，無異味
+              </p>
             </div>
-            <div className="flex items-start space-x-4">
-              <div className="text-blue-600 text-2xl">✓</div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Convenient Location</h3>
-                <p className="text-gray-600">Easy to find and accessible with ample parking for your convenience.</p>
+          </div>
+
+          {/* Deep Supernumerary Tooth Extraction Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <img 
+              src="/JoeBingDDS/images/8-year-old_Abby.png" 
+              alt="8-year-old_Abby"
+              className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
+            />
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#8-year-old_Abby</h3>
+              <p className="text-base md:text-xl font-normal">
+                上顎左右正中門牙之間卡著倒長的多生牙，可能導致後續牙齒排列不整<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以最微創的方式翻開上顎牙齦，將多生牙整顆取出<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 將牙齦精準對回原位，術後幾乎看不出傷口
+              </p>
+            </div>
+          </div>
+
+          {/* Direct Pulp Capping Case */}
+          <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <img 
+              src="/JoeBingDDS/images/Aunt_Jennie.png" 
+              alt="Aunt_Jennie"
+              className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
+            />
+            <div className="flex flex-col justify-center text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
+              <p className="text-base md:text-xl font-normal">
+                左上第二大臼齒容易卡食物，但不痛<br />
+                牙齒嚴重蛀牙至牙齦下2mm，牙髓有活性<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 移除所有蛀牙齒質，牙髓暴露直徑1mm以內<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以 Sealapex (Kerr) 保護牙髓，Fuji II (GC) 做基底材料，最上方以樹酯作永久填補<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 三個月追蹤，牙髓有活性，無不舒服
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      {/* Service Hours Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gold-300">看診時段</h2>
+          
+          {/* Schedule Table */}
+          <div className="overflow-x-auto mb-12">
+            <table className="min-w-full border-collapse">
+              <thead>
+                <tr className="border border-gray-700">
+                  <th className="p-3 text-center"></th>
+                  <th className="p-3 text-center border border-gray-700">星期二</th>
+                  <th className="p-3 text-center border border-gray-700">星期三</th>
+                  <th className="p-3 text-center border border-gray-700">星期四</th>
+                  <th className="p-3 text-center border border-gray-700"></th>
+                  <th className="p-3 text-center border border-gray-700">星期五</th>
+                  <th className="p-3 text-center border border-gray-700">星期六</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border border-gray-700">
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700">
+                    09:00<br />|<br />12:00
+                  </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                </tr>
+                <tr className="border border-gray-700">
+                  <td className="p-3 text-center border border-gray-700">
+                    14:30<br />|<br />17:30
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700">
+                    14:15<br />|<br />17:15
+                  </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                </tr>
+                <tr className="border border-gray-700">
+                  <td className="p-3 text-center border border-gray-700">
+                    18:30<br />|<br />21:00
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                  </td>
+                  <td className="p-3 text-center border border-gray-700">
+                    18:00<br />|<br />21:00
+                  </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          {/* Clinic Information */}
+          <div className="max-w-5xl mx-auto bg-gold-300 p-8 shadow-md">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+              <div className="text-center">
+                <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫診所" className="w-48 h-48 mx-auto mb-4" />
+              </div>
+              
+              <div className="text-center">
+                <h3 className="text-2xl font-bold mb-4">理想牙醫診所</h3>
+                <p className="text-xl mb-2">高雄市楠梓區旗楠路 86 號</p>
+                <p className="text-xl mb-2">(07)3553083</p>
+              </div>
+              
+              <div className="text-center md:text-right">
+                <img src="/JoeBingDDS/images/Ideal_Line.png" alt="理想牙醫診所LINE QR Code" className="w-40 h-40 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-blue-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Smile?</h2>
-          <p className="text-xl mb-8">Schedule your appointment today and take the first step towards a healthier, more beautiful smile.</p>
-          <a href="/contact" className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors">
-            Contact Us
-          </a>
-        </div>
-      </section>
     </div>
   )
 } 
