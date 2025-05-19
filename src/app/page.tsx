@@ -19,7 +19,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <img src="/images/portrait-徐振傑-牙醫.png" width={1000} height={1500} className="rounded-lg object-cover" alt="徐振傑醫師" />
+            <img src="/public/images/portrait-徐振傑-牙醫.png" width={1000} height={1500} className="rounded-lg object-cover" alt="徐振傑醫師" />
           </div>
           <div>
             <div className="text-gray-800 text-lg mb-6 whitespace-pre-line">
