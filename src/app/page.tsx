@@ -97,34 +97,42 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <div className="mb-8">
               <p className="text-gray-800 mb-4">
-                Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Surgery of impacted maxillary second 
-                premolar beneath first molar trifurcation via lateral window maxillary sinus 
-                augmentation: A case report. <i>Journal of dental sciences, 20</i>(1), 704–706.
+                <a href="https://doi.org/10.1016/j.jds.2024.09.020" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
+                  Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Surgery of impacted maxillary second 
+                  premolar beneath first molar trifurcation via lateral window maxillary sinus 
+                  augmentation: A case report. <i>Journal of dental sciences, 20</i>(1), 704–706.
+                </a>
               </p>
               
               <p className="text-gray-800 mb-4">
-                Hsu, C. C., Fang, H. M., Chiang, M. L., & Chen, J. K. (2025). Conservative management of 
-                central odontogenic fibroma for tooth preservation and spontaneous eruption in a pre-
-                teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
+                <a href="https://doi.org/10.1016/j.jds.2024.08.022" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
+                  Hsu, C. C., Fang, H. M., Chiang, M. L., & Chen, J. K. (2025). Conservative management of 
+                  central odontogenic fibroma for tooth preservation and spontaneous eruption in a pre-
+                  teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
+                </a>
               </p>
               
               <p className="text-gray-800 mb-4">
-                Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Successful treatment of mandibular central 
-                dentinogenic ghost cell tumor with en bloc resection and dental rehabilitation: A case 
-                report. <i>Journal of dental sciences, 20</i>(2), 1355-1357.
+                <a href="https://doi.org/10.1016/j.jds.2024.12.012" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
+                  Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Successful treatment of mandibular central 
+                  dentinogenic ghost cell tumor with en bloc resection and dental rehabilitation: A case 
+                  report. <i>Journal of dental sciences, 20</i>(2), 1355-1357.
+                </a>
               </p>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+            <div className="flex flex-col md:flex-row items-center md:items-start gap-6 justify-center">
               <img 
                 src="/JoeBingDDS/images/Changeng_IRB_Certificate.png" 
                 alt="Changeng IRB Certificate"
-                className="w-64 h-auto object-contain" 
+                className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0" 
               />
               <div>
-                <h3 className="text-xl font-semibold">長庚醫院 研究計畫主持人：</h3>
-                <h3 className="text-xl font-normal">Diagnosis and treatment of dentinogenic ghost</h3>
-                <h3 className="text-xl font-normal">cell tumor: a retrospective case study</h3>
+                <h3 className="text-lg md:text-xl font-semibold mb-2">長庚醫院 研究計畫主持人：</h3>
+                <p className="text-base md:text-xl font-normal">
+                  Diagnosis and treatment of dentinogenic ghost<br className="hidden md:block" />
+                  cell tumor: a retrospective case study
+                </p>
               </div>
             </div>
           </div>
