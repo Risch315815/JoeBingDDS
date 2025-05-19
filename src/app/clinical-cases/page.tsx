@@ -10,7 +10,7 @@ export default function ClinicalCases() {
         <div className="max-w-5xl mx-auto space-y-16">
 
           {/* Direct Pulp Capping Case */}
-          <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
+          <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
                 src="/JoeBingDDS/images/Aunt_Jennie.jpg" 
@@ -23,7 +23,7 @@ export default function ClinicalCases() {
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
             </div>
-            <div className="flex flex-col justify-center text-center md:text-left">
+            <div className="flex flex-col justify-center text-center md:text-left md:pl-4 md:flex-1">
               <h3 className="text-lg md:text-xl font-bold mb-2">#直接覆髓案例</h3>
               <p className="text-base md:text-xl font-normal">
                 左上第二大臼齒有嚴重蛀牙，X光顯示接近牙髓<br />
@@ -35,13 +35,15 @@ export default function ClinicalCases() {
             </div>
           </div>
         </div>
+        
+        <div className="max-w-5xl mx-auto space-y-16"></div>
 
         {/* Endo Section */}
         <h2 className="text-4xl font-bold text-center mb-12">牙髓病症治療</h2>
         <div className="max-w-5xl mx-auto space-y-16">
 
           {/* Difficult Root Canal Retreatment Case */}
-          <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
+          <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
                 src="/JoeBingDDS/images/Uncle_Brian.jpg" 
@@ -74,7 +76,7 @@ export default function ClinicalCases() {
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
             </div>
-            <div className="flex flex-col justify-center text-center md:text-left">
+            <div className="flex flex-col justify-center text-center md:text-left md:pl-4 md:flex-1">
               <h3 className="text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
               <p className="text-base md:text-xl font-normal">
                 右下第一大臼齒咬到就會痛<br />
@@ -89,7 +91,7 @@ export default function ClinicalCases() {
 
             
           {/* Restricted Mouth Opening Case */}
-          <div className="flex flex-col md:flex-row items-center gap-6 justify-center bg-black text-white p-8 rounded-lg">
+          <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
               <img 
                 src="/JoeBingDDS/images/ClinicalCase/Aunt_Merill/001.png" 
@@ -122,7 +124,7 @@ export default function ClinicalCases() {
                 className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
             </div>
-            <div className="flex flex-col justify-center text-center md:text-left">
+            <div className="flex flex-col justify-center text-center md:text-left md:pl-4 md:flex-1">
               <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Merill</h3>
               <p className="text-base md:text-xl font-normal">
                 過去曾因為口腔癌切除部分顎骨，伴有張口困難(只有一般人2/3)<br />
