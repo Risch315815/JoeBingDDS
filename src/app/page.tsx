@@ -19,14 +19,14 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <Image src="/images/doctor.jpg" alt="徐振傑醫師" width={400} height={500} className="rounded-lg object-cover" />
+            <Image src="/images/portrait-徐振傑-牙醫.png" width={311} height={466} className="rounded-lg object-cover" alt="徐振傑醫師" />
           </div>
           <div>
             <div className="text-gray-800 text-lg mb-6 whitespace-pre-line">
-台南一中
-高雄醫學大學牙醫系2022年畢業
-台中榮民總醫院實習
-台北長庚紀念醫院住院醫師
+              <li>台南一中</li>
+              <li>高雄醫學大學牙醫系2022年畢業</li>
+              <li>台中榮民總醫院實習</li>
+              <li>台北長庚紀念醫院住院醫師</li>
             </div>
             <hr className="my-6" />
             <h2 className="text-2xl font-bold mb-4">治療項目</h2>
