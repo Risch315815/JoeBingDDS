@@ -44,20 +44,9 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">專業認證</h2>
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <img 
-              src="/JoeBingDDS/images/Changeng_PGY_Certificate.png" 
-              alt="Changeng PGY Certificate"
-              className="w-64 h-auto object-contain" 
-            />
-            <div>
-              <h3 className="text-xl font-semibold">台北長庚紀念醫院 訓練證書</h3>
-
-            </div>
-          </div>
+          <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">專業認證</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div className="bg-gold-400 p-6 rounded-lg shadow-md">
@@ -80,12 +69,12 @@ export default function Home() {
               />
             </div>
               <h3 className="text-xl font-normal mb-2">IAOP 2023:</h3>
-              <h3 className="text-xl font-semibold mb-2">21st International Congress of</h3>
-              <h3 className="text-xl font-semibold mb-2">Oral Pathology and Medicine</h3>
+              <h3 className="text-xl font-bold mb-2">21st International Congress of</h3>
+              <h3 className="text-xl font-bold mb-2">Oral Pathology and Medicine</h3>
               <h3 className="text-xl font-normal mb-2">Poster Presentation</h3>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gold-400 p-6 rounded-lg shadow-md">
               <div className="mb-4">
               <img 
                 src="/JoeBingDDS/images/TADS_TMJ_Presentation.png" 
@@ -95,6 +84,48 @@ export default function Home() {
             </div>
               <h3 className="text-xl font-normal mb-2">2023年中華牙醫學年會：</h3>
               <h3 className="text-xl font-semibold mb-2">針灸減緩顳顎關節障礙症候群之疼痛</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Academic Papers Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-12">學術論文</h2>
+          
+          <div className="max-w-3xl mx-auto">
+            <div className="mb-8">
+              <p className="text-gray-800 mb-4">
+                Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Surgery of impacted maxillary second 
+                premolar beneath first molar trifurcation via lateral window maxillary sinus 
+                augmentation: A case report. <i>Journal of dental sciences, 20</i>(1), 704–706.
+              </p>
+              
+              <p className="text-gray-800 mb-4">
+                Hsu, C. C., Fang, H. M., Chiang, M. L., & Chen, J. K. (2025). Conservative management of 
+                central odontogenic fibroma for tooth preservation and spontaneous eruption in a pre-
+                teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
+              </p>
+              
+              <p className="text-gray-800 mb-4">
+                Hsu, C. C., Chiang, M. L., & Chen, J. K. (2025). Successful treatment of mandibular central 
+                dentinogenic ghost cell tumor with en bloc resection and dental rehabilitation: A case 
+                report. <i>Journal of dental sciences, 20</i>(2), 1355-1357.
+              </p>
+            </div>
+            
+            <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
+              <img 
+                src="/JoeBingDDS/images/Changeng_IRB_Certificate.png" 
+                alt="Changeng IRB Certificate"
+                className="w-64 h-auto object-contain" 
+              />
+              <div>
+                <h3 className="text-xl font-semibold">長庚醫院 研究計畫主持人：</h3>
+                <h3 className="text-xl font-normal">Diagnosis and treatment of dentinogenic ghost</h3>
+                <h3 className="text-xl font-normal">cell tumor: a retrospective case study</h3>
+              </div>
             </div>
           </div>
         </div>
