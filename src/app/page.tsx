@@ -22,22 +22,22 @@ export default function Home() {
             <img src="/JoeBingDDS/images/doctor.png" className="rounded-lg object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
           </div>
           <div>
-            <div className="text-gray-800 text-lg mb-6 whitespace-pre-line">
-              <li>台南一中</li>
-              <li>高雄醫學大學牙醫系2022年畢業</li>
-              <li>台中榮民總醫院實習</li>
-              <li>台北長庚紀念醫院住院醫師</li>
+            <div className="text-gray-800 text-lg mb-6">
+              <p className="mb-1">台南一中</p>
+              <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
+              <p className="mb-1">台中榮民總醫院 實習</p>
+              <p className="mb-1">台北長庚紀念醫院 住院醫師</p>
             </div>
             <hr className="my-6" />
             <h2 className="text-2xl font-bold mb-4">治療項目</h2>
             <ul className="text-gray-700 text-lg space-y-1">
-              <li>牙周治療</li>
-              <li>根管治療</li>
+              <li>牙周深層清潔</li>
+              <li>牙髓病症治療</li>
               <li>美學假牙贋復</li>
               <li>全口重建</li>
-              <li>兒童牙科</li>
-              <li>阻生齒拔除</li>
-              <li>人工植牙</li>
+              <li>乳牙齲齒預防與修復</li>
+              <li>一般阻生齒拔除</li>
+              <li>植牙</li>
             </ul>
           </div>
         </div>
