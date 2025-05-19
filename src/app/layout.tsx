@@ -25,11 +25,11 @@ export default function RootLayout({
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
-              <div className="text-2xl font-bold text-blue-600">Dr. Joe Bing DDS</div>
+              <div className="text-2xl font-bold text-blue-600">徐振傑 牙醫師 | Chen-Chieh Hsu D.D.S.</div>
               <div className="space-x-6">
-                <a href="/" className="text-gray-600 hover:text-blue-600">Home</a>
-                <a href="/about" className="text-gray-600 hover:text-blue-600">About</a>
-                <a href="/services" className="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="/" className="text-gray-600 hover:text-blue-600">首頁</a>
+                <a href="/about" className="text-gray-600 hover:text-blue-600">認證</a>
+                <a href="/services" className="text-gray-600 hover:text-blue-600">看診時段</a>
                 <a href="/contact" className="text-gray-600 hover:text-blue-600">Contact</a>
               </div>
             </div>

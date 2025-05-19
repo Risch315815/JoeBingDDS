@@ -5,15 +5,12 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[600px] bg-gradient-to-r from-blue-500 to-blue-700">
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative container mx-auto px-4 h-full flex items-center">
+      <section className="relative h-[600px]">
+        <Image src="/images/banner.jpg" alt="Hero Background" layout="fill" objectFit="cover" className="z-0" />
+        <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div className="relative container mx-auto px-4 h-full flex items-center z-20">
           <div className="text-white max-w-2xl">
-            <h1 className="text-5xl font-bold mb-4">Welcome to Dr. Joe Bing's Dental Practice</h1>
-            <p className="text-xl mb-8">Providing exceptional dental care with a focus on your comfort and satisfaction.</p>
-            <a href="/appointments" className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors">
-              Book an Appointment
-            </a>
+            <h1 className="text-5xl font-bold mb-4">實證醫學。微創治療</h1>
           </div>
         </div>
       </section>
