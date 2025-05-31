@@ -65,15 +65,15 @@ export default function Home() {
                 className="w-auto h-auto" 
               />
             </div>
-              <h3 className="text-xl font-semibold mb-2">台灣牙醫植體醫學會 會員</h3>
+              <h3 className="text-xl font-semibold mb-2">高雄醫學大學牙醫系 畢業證書</h3>
             </div>
 
             {/* IAOP Presentation */}
             <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
-                src="/JoeBingDDS/images/IAOP2023_Presentation.png" 
-                alt="IAOP2023_Presentation"
+                src="/JoeBingDDS/images/KMU_Graduation.png" 
+                alt="KMU_Graduation.png"
                 className="w-auto h-auto" 
               />
             </div>
