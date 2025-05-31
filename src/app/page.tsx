@@ -60,8 +60,8 @@ export default function Home() {
             <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
-                src="/JoeBingDDS/images/TAID_implant_certificate.png" 
-                alt="TAID_implant_certificate"
+                src="/JoeBingDDS/images/KMU_Graduation.png" 
+                alt="KMU_Graduation.png"
                 className="w-auto h-auto" 
               />
             </div>
@@ -72,8 +72,8 @@ export default function Home() {
             <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
-                src="/JoeBingDDS/images/KMU_Graduation.png" 
-                alt="KMU_Graduation.png"
+                src="/JoeBingDDS/images/IAOP2023_Presentation.png" 
+                alt="IAOP2023_Presentation"
                 className="w-auto h-auto" 
               />
             </div>
