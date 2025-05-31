@@ -26,10 +26,10 @@ export default function Home() {
 
             {/* Past Training */}
             <div className="text-gray-800 text-lg mb-6">
-              <p className="mb-1">台南一中</p>
-              <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
-              <p className="mb-1">台中榮民總醫院 實習</p>
               <p className="mb-1">台北長庚紀念醫院 住院醫師</p>
+              <p className="mb-1">台中榮民總醫院 實習</p>
+              <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
+              <p className="mb-1">台南一中</p>
             </div>
 
             <hr className="my-6" />
