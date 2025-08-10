@@ -44,7 +44,7 @@ export default function HomeEN() {
             <div className="text-gray-800 text-lg mb-6">
               <p className="mb-1">Resident, Taipei Chang Gung Memorial Hospital</p>
               <p className="mb-1">Intern, Taichung Veterans General Hospital</p>
-              <p className="mb-1">Graduate, School of Dentistry, Kaohsiung Medical University</p>
+              <p className="mb-1">D.D.S., School of Dentistry, Kaohsiung Medical University</p>
               <p className="mb-1">Tainan First Senior High School</p>
             </div>
 
@@ -53,11 +53,11 @@ export default function HomeEN() {
             {/* Treatment */}
             <h2 className="text-2xl font-bold mb-4">Treatment Services</h2>
             <ul className="text-gray-700 text-lg space-y-1">
-              <li>Deep Periodontal Cleaning</li>
+              <li>Comprehensive Periodontal Treatment</li>
               <li>Endodontic Treatment</li>
               <li>Aesthetic Prosthetic Dentistry</li>
               <li>Full Mouth Reconstruction</li>
-              <li>Prevention and Restoration of Primary Tooth Caries</li>
+              <li>Primary Tooth Treatment</li>
               <li>General Impacted Tooth Extraction</li>
               <li>Dental Implants</li>
             </ul>
@@ -81,7 +81,7 @@ export default function HomeEN() {
                 className="w-auto h-auto" 
               />
             </div>
-              <h3 className="text-xl font-semibold mb-2">Graduation Certificate, School of Dentistry, Kaohsiung Medical University</h3>
+              <h3 className="text-xl font-semibold mb-2">Graduation Certificate, <br />School of Dentistry, <br />Kaohsiung Medical University</h3>
             </div>
 
             {/* IAOP Presentation */}
@@ -190,7 +190,7 @@ export default function HomeEN() {
                 Right lower first molar hurts when biting<br />
                 After removing the filling, found three large holes at the pulp floor<br />
                 <span className="text-white font-semibold mr-2">→</span> Located all root canals and used bioceramic to repair the large holes<br />
-                <span className="text-white font-semibold mr-2">→</span> Two-week follow-up, can bite normally
+                <span className="text-white font-semibold mr-2">→</span> Two-week follow-up, no discomfort while biting
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function HomeEN() {
                 Tooth severely decayed 1-2mm below the gum line, pulp non-vital<br />
                 <span className="text-white font-semibold mr-2">→</span> First visit: 60 minutes to adjust distal gingiva, rebuild tooth structure and remove inflamed nerve<br />
                 <span className="text-white font-semibold mr-2">→</span> Second visit: 40 minutes to complete root canal treatment<br />
-                <span className="text-white font-semibold mr-2">→</span> One-week follow-up, can bite normally<br />
+                <span className="text-white font-semibold mr-2">→</span> One-week follow-up, no discomfort while biting<br />
               </p>
             </div>
           </div>

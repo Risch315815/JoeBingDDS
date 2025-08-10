@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px]">
-        <img src="/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src="/JoeBingDDS/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         
         {/* Language Navigation */}
