@@ -381,9 +381,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto bg-gold-200 p-8 shadow-md mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <div className="w-48 h-48 mx-auto mb-4 bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-gray-600">楓鄰牙醫</span>
-                </div>
+                <img src="/images/FL_logo.png" alt="楓鄰牙醫診所" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
@@ -398,9 +396,7 @@ export default function Home() {
               </div>
               
               <div className="text-center md:text-right">
-                <div className="w-48 h-48 mx-auto md:ml-auto bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-lg font-semibold text-gray-600">LINE QR Code</span>
-                </div>
+                <img src="/images/FL_line.jpg" alt="楓鄰牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
@@ -409,9 +405,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto bg-gold-100 p-8 shadow-md">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <div className="w-48 h-48 mx-auto mb-4 bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold text-gray-600">沐樂牙醫</span>
-                </div>
+                <img src="/images/Mula_logo.jpg" alt="沐樂牙醫診所" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
@@ -426,9 +420,7 @@ export default function Home() {
               </div>
               
               <div className="text-center md:text-right">
-                <div className="w-48 h-48 mx-auto md:ml-auto bg-white rounded-lg flex items-center justify-center">
-                  <span className="text-lg font-semibold text-gray-600">LINE 官方帳號</span>
-                </div>
+                <img src="/images/Mula_Line.png" alt="沐樂牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
