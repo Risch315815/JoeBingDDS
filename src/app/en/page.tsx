@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Home() {
+export default function HomeEN() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px]">
-        <img src="/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src="/JoeBingDDS/images/banner.jpg" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0" />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         
         {/* Language Navigation */}
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="relative container mx-auto px-4 h-full flex items-center z-20">
           <div className="text-white max-w-2xl">
             <h4 className="text-5xl font-normal mb-4">
-              實證醫學。<br className="sm:hidden" />微創治療
+              Evidence-Based Medicine.<br className="sm:hidden" />Minimally Invasive Treatment
             </h4>
           </div>
         </div>
@@ -36,30 +36,30 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <img src="/JoeBingDDS/images/徐振傑-牙醫師.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="徐振傑醫師" />
+            <img src="/JoeBingDDS/images/徐振傑-牙醫師.png" className="object-cover max-w-full h-auto max-h-[500px]" alt="Dr. Hsu Chen-Chieh" />
           </div>
           <div>
 
             {/* Past Training */}
             <div className="text-gray-800 text-lg mb-6">
-              <p className="mb-1">台北長庚紀念醫院 住院醫師</p>
-              <p className="mb-1">台中榮民總醫院 實習</p>
-              <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
-              <p className="mb-1">台南一中</p>
+              <p className="mb-1">Resident, Taipei Chang Gung Memorial Hospital</p>
+              <p className="mb-1">Intern, Taichung Veterans General Hospital</p>
+              <p className="mb-1">Graduate, School of Dentistry, Kaohsiung Medical University</p>
+              <p className="mb-1">Tainan First Senior High School</p>
             </div>
 
             <hr className="my-6" />
             
             {/* Treatment */}
-            <h2 className="text-2xl font-bold mb-4">治療項目</h2>
+            <h2 className="text-2xl font-bold mb-4">Treatment Services</h2>
             <ul className="text-gray-700 text-lg space-y-1">
-              <li>牙周深層清潔</li>
-              <li>牙髓病症治療</li>
-              <li>美學假牙贋復</li>
-              <li>全口重建</li>
-              <li>乳牙齲齒預防與修復</li>
-              <li>一般阻生齒拔除</li>
-              <li>植牙</li>
+              <li>Deep Periodontal Cleaning</li>
+              <li>Endodontic Treatment</li>
+              <li>Aesthetic Prosthetic Dentistry</li>
+              <li>Full Mouth Reconstruction</li>
+              <li>Prevention and Restoration of Primary Tooth Caries</li>
+              <li>General Impacted Tooth Extraction</li>
+              <li>Dental Implants</li>
             </ul>
 
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
       {/* Certificate Section */}
       <section id="certificate" className="py-16 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">專業認證</h2>
+          <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">Professional Certifications</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* Implant Certificate */}
@@ -81,7 +81,7 @@ export default function Home() {
                 className="w-auto h-auto" 
               />
             </div>
-              <h3 className="text-xl font-semibold mb-2">高雄醫學大學牙醫系 畢業證書</h3>
+              <h3 className="text-xl font-semibold mb-2">Graduation Certificate, School of Dentistry, Kaohsiung Medical University</h3>
             </div>
 
             {/* IAOP Presentation */}
@@ -108,8 +108,8 @@ export default function Home() {
                 className="w-auto h-auto" 
               />
             </div>
-              <h3 className="text-xl font-normal mb-2">2023年中華牙醫學年會：</h3>
-              <h3 className="text-xl font-semibold mb-2">針灸減緩顳顎關節障礙症候群之疼痛</h3>
+              <h3 className="text-xl font-normal mb-2">2023 Taiwan Dental Association Annual Meeting:</h3>
+              <h3 className="text-xl font-semibold mb-2">Acupuncture for Pain Relief in Temporomandibular Joint Disorder Syndrome</h3>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
       {/* Academic Papers Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">學術論文</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Academic Publications</h2>
           
           {/* Sinus Augmentation Case */}
           <div className="max-w-3xl mx-auto">
@@ -135,8 +135,7 @@ export default function Home() {
               <p className="text-gray-800 mb-4">
                 <a href="https://doi.org/10.1016/j.jds.2024.08.022" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500">
                   Hsu, C. C., Fang, H. M., Chiang, M. L., & Chen, J. K. (2025). Conservative management of 
-                  central odontogenic fibroma for tooth preservation and spontaneous eruption in a pre-
-                  teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
+                  central odontogenic fibroma for tooth preservation and spontaneous eruption in a pre-teen. <i>Journal of dental sciences, 20</i>(1), 713–715.
                 </a>
               </p>
 
@@ -160,7 +159,7 @@ export default function Home() {
                 className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
               />
               <div className="flex flex-col justify-center text-center md:text-left">
-                <h3 className="text-lg md:text-xl font-semibold mb-2">長庚醫院 研究計畫主持人：</h3>
+                <h3 className="text-lg md:text-xl font-semibold mb-2">Principal Investigator, Chang Gung Hospital Research Project:</h3>
                 <p className="text-base md:text-xl font-normal">
                   Diagnosis and treatment of dentinogenic ghost <br className="hidden md:block" />
                   cell tumor: a retrospective case study
@@ -176,7 +175,7 @@ export default function Home() {
       {/* Clinical Cases Section */}
       <section id="clinic-cases" className="py-16 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-white text-3xl font-bold text-center mb-12">臨床案例</h2>
+          <h2 className="text-white text-3xl font-bold text-center mb-12">Clinical Cases</h2>
 
           {/* Difficult Endo Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
@@ -188,10 +187,10 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                右下第一大臼齒咬到就會痛<br />
-                移除填補物發現牙髓底部有三個大洞<br />
-                <span className="text-white font-semibold mr-2">→</span> 找到所有根管並用生物陶瓷修補大洞<br />
-                <span className="text-white font-semibold mr-2">→</span> 兩星期追蹤，可以正常咬東西
+                Right lower first molar hurts when biting<br />
+                After removing the filling, found three large holes at the pulp floor<br />
+                <span className="text-white font-semibold mr-2">→</span> Located all root canals and used bioceramic to repair the large holes<br />
+                <span className="text-white font-semibold mr-2">→</span> Two-week follow-up, can bite normally
               </p>
             </div>
           </div>
@@ -208,11 +207,11 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Lily</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上第二小臼齒容易卡食物，且有蛀牙痛<br />
-                牙齒嚴重蛀牙至牙齦下1-2mm，牙髓無活性<br />
-                <span className="text-white font-semibold mr-2">→</span> 先花一診60分鐘調整遠心側牙齦、重建齒質並移除發炎神經<br />
-                <span className="text-white font-semibold mr-2">→</span> 再花一診40分鐘完成根管治療<br />
-                <span className="text-white font-semibold mr-2">→</span> 一個星期追蹤，可以正常咬東西<br />
+                Left upper second premolar easily traps food and has caries pain<br />
+                Tooth severely decayed 1-2mm below the gum line, pulp non-vital<br />
+                <span className="text-white font-semibold mr-2">→</span> First visit: 60 minutes to adjust distal gingiva, rebuild tooth structure and remove inflamed nerve<br />
+                <span className="text-white font-semibold mr-2">→</span> Second visit: 40 minutes to complete root canal treatment<br />
+                <span className="text-white font-semibold mr-2">→</span> One-week follow-up, can bite normally<br />
               </p>
             </div>
           </div>
@@ -229,10 +228,10 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Hollie</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上側門牙臉頰側牙齦牙根處長膿包已經半年，有異味<br />
-                牙齒根管充填不緻密，根尖有明顯發炎，且牙冠頰側齒質穿孔<br />
-                <span className="text-white font-semibold mr-2">→</span> 一診60分鐘：先修復頰側齒質穿孔，再移除舊的根管填補物；根管除菌後，以生物陶瓷達成緻密封填<br />
-                <span className="text-white font-semibold mr-2">→</span> 兩星期追蹤，膿包消退，無異味
+                Left upper lateral incisor buccal gingiva at root has abscess for half a year with odor<br />
+                Root canal filling not dense, obvious inflammation at apex, and buccal crown perforation<br />
+                <span className="text-white font-semibold mr-2">→</span> One visit 60 minutes: First repair buccal perforation, then remove old root canal filling; after root canal disinfection, achieve dense sealing with bioceramic<br />
+                <span className="text-white font-semibold mr-2">→</span> Two-week follow-up, abscess subsided, no odor
               </p>
             </div>
           </div>
@@ -249,9 +248,9 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#8-year-old_Abby</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                上顎左右正中門牙之間卡著倒長的多生牙，可能導致後續牙齒排列不整<br />
-                <span className="text-white font-semibold mr-2">→</span> 以最微創的方式翻開上顎牙齦，將多生牙整顆取出<br />
-                <span className="text-white font-semibold mr-2">→</span> 將牙齦精準對回原位，術後幾乎看不出傷口
+                Inverted supernumerary tooth stuck between upper left and right central incisors, may cause subsequent tooth misalignment<br />
+                <span className="text-white font-semibold mr-2">→</span> Used minimally invasive method to open upper jaw gingiva and extract the entire supernumerary tooth<br />
+                <span className="text-white font-semibold mr-2">→</span> Precisely repositioned gingiva, post-operative wound almost invisible
               </p>
             </div>
           </div>
@@ -268,19 +267,19 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上第二大臼齒容易卡食物，但不痛<br />
-                牙齒嚴重蛀牙至牙齦下2mm，牙髓有活性<br />
-                <span className="text-white font-semibold mr-2">→</span> 移除所有蛀牙齒質，牙髓暴露直徑1mm以內<br />
-                <span className="text-white font-semibold mr-2">→</span> 以 Sealapex (Kerr) 保護牙髓，Fuji II (GC) 做基底材料，最上方以樹酯作永久填補<br />
-                <span className="text-white font-semibold mr-2">→</span> 三個月追蹤，牙髓有活性，無不舒服
+                Left upper second molar easily traps food but no pain<br />
+                Tooth severely decayed 2mm below gum line, pulp vital<br />
+                <span className="text-white font-semibold mr-2">→</span> Removed all decayed tooth structure, pulp exposure diameter within 1mm<br />
+                <span className="text-white font-semibold mr-2">→</span> Used Sealapex (Kerr) to protect pulp, Fuji II (GC) as base material, resin as permanent filling on top<br />
+                <span className="text-white font-semibold mr-2">→</span> Three-month follow-up, pulp vital, no discomfort
               </p>
             </div>
           </div>
 
           {/* View More Button */}
           <div className="text-center mt-12">
-            <a href="/JoeBingDDS/clinical-cases" className="inline-block bg-gold-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gold-600 transition-colors shadow-md">
-              看更多
+            <a href="/clinical-cases" className="inline-block bg-gold-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gold-600 transition-colors shadow-md">
+              View More
             </a>
           </div>
           
@@ -291,7 +290,7 @@ export default function Home() {
       {/* Service Hours Section */}
       <section id="schedule" className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">看診時段</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Consultation Hours</h2>
           
           {/* Schedule Table */}
           <div className="overflow-x-auto mb-12">
@@ -299,12 +298,12 @@ export default function Home() {
               <thead>
                 <tr className="border border-gray-700">
                   <th className="p-3 text-center"></th>
-                  <th className="p-3 text-center border border-gray-700">星期二</th>
-                  <th className="p-3 text-center border border-gray-700">星期三</th>
-                  <th className="p-3 text-center border border-gray-700">星期四</th>
+                  <th className="p-3 text-center border border-gray-700">Tuesday</th>
+                  <th className="p-3 text-center border border-gray-700">Wednesday</th>
+                  <th className="p-3 text-center border border-gray-700">Thursday</th>
                   <th className="p-3 text-center border border-gray-700"></th>
-                  <th className="p-3 text-center border border-gray-700">星期五</th>
-                  <th className="p-3 text-center border border-gray-700">星期六</th>
+                  <th className="p-3 text-center border border-gray-700">Friday</th>
+                  <th className="p-3 text-center border border-gray-700">Saturday</th>
                 </tr>
               </thead>
               <tbody>
@@ -317,10 +316,10 @@ export default function Home() {
                     09:00<br />|<br />12:00
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/FL_logo.png" alt="Feng Lin Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="Mu Le Dental" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
@@ -328,22 +327,22 @@ export default function Home() {
                     14:30<br />|<br />17:30
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700">
                     14:15<br />|<br />17:15
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/FL_logo.png" alt="Feng Lin Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="Mu Le Dental" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
                 <tr className="border border-gray-700">
@@ -351,13 +350,13 @@ export default function Home() {
                     18:30<br />|<br />21:00
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700">
                     18:00<br />|<br />21:00
@@ -373,12 +372,12 @@ export default function Home() {
           <div className="max-w-5xl mx-auto bg-gold-300 p-8 shadow-md mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫診所" className="w-48 h-48 mx-auto mb-4" />
+                <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="Ideal Dental Clinic" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">理想牙醫診所</h3>
-                <p className="text-xl mb-2">高雄市楠梓區旗楠路 86 號</p>
+                <h3 className="text-2xl font-bold mb-4">Ideal Dental Clinic</h3>
+                <p className="text-xl mb-2">86 Chi Nan Road, Nanzih District, Kaohsiung City</p>
                 <p className="text-xl mb-2">(07)3553083</p>
                 <p className="text-xl mb-2">
                   <a href="https://lin.ee/qrLZRzm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -388,21 +387,21 @@ export default function Home() {
               </div>
               
               <div className="text-center md:text-right">
-                <img src="/JoeBingDDS/images/Ideal_Line.png" alt="理想牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
+                <img src="/JoeBingDDS/images/Ideal_Line.png" alt="Ideal Dental Clinic LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
 
-          {/* 楓鄰牙醫診所 */}
+          {/* Feng Lin Dental Clinic */}
           <div className="max-w-5xl mx-auto bg-gold-200 p-8 shadow-md mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫診所" className="w-48 h-48 mx-auto mb-4" />
+                <img src="/JoeBingDDS/images/FL_logo.png" alt="Feng Lin Dental Clinic" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">楓鄰牙醫診所</h3>
-                <p className="text-xl mb-2">臺南市永康區東橋一路416號</p>
+                <h3 className="text-2xl font-bold mb-4">Feng Lin Dental Clinic</h3>
+                <p className="text-xl mb-2">416 Dong Qiao Yi Road, Yongkang District, Tainan City</p>
                 <p className="text-xl mb-2">(06) 3023485</p>
                 <p className="text-xl mb-2">
                   <a href="https://line.me/R/ti/p/@970jqmky" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -412,31 +411,31 @@ export default function Home() {
               </div>
               
               <div className="text-center md:text-right">
-                <img src="/JoeBingDDS/images/FL_line.jpg" alt="楓鄰牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
+                <img src="/JoeBingDDS/images/FL_line.jpg" alt="Feng Lin Dental Clinic LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
 
-          {/* 沐樂牙醫診所 */}
+          {/* Mu Le Dental Clinic */}
           <div className="max-w-5xl mx-auto bg-gold-100 p-8 shadow-md">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫診所" className="w-48 h-48 mx-auto mb-4" />
+                <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="Mu Le Dental Clinic" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">沐樂牙醫診所</h3>
-                <p className="text-xl mb-2">台南市安南區安中路一段239號</p>
+                <h3 className="text-2xl font-bold mb-4">Mu Le Dental Clinic</h3>
+                <p className="text-xl mb-2">239 An Zhong Road Section 1, Annan District, Tainan City</p>
                 <p className="text-xl mb-2">(06) 2551933</p>
                 <p className="text-xl mb-2">
                   <a href="https://liff.line.me/2005566375-124Z8WKX?channel=2005564145&liffid=2005566375-124Z8WKX&c=3705370139&d=&p=iDjCnjFx&t=&escapeBind=1" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    LINE 官方帳號
+                    LINE Official Account
                   </a>
                 </p>
               </div>
               
               <div className="text-center md:text-right">
-                <img src="/JoeBingDDS/images/Mula_Line.png" alt="沐樂牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
+                <img src="/JoeBingDDS/images/Mula_Line.png" alt="Mu Le Dental Clinic LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
@@ -445,4 +444,4 @@ export default function Home() {
 
     </div>
   )
-} 
+}
