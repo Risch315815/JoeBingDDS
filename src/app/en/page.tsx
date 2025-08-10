@@ -11,13 +11,13 @@ export default function HomeEN() {
         {/* Language Navigation */}
         <div className="absolute top-4 right-4 z-30">
           <div className="flex space-x-4">
-            <a href="/" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
+            <a href="https://risch315815.github.io/JoeBingDDS/" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
               中文
             </a>
-            <a href="/en" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
+            <a href="https://risch315815.github.io/JoeBingDDS/en" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
               English
             </a>
-            <a href="/jp" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
+            <a href="https://risch315815.github.io/JoeBingDDS/jp" className="text-white hover:text-gold-300 font-semibold px-3 py-2 rounded-lg border border-white hover:border-gold-300 transition-colors">
               日本語
             </a>
           </div>
