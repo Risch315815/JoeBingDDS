@@ -141,10 +141,6 @@ export default function ClinicalCases() {
             </div>
           </div>
 
-        </div>
-
-        <div className="max-w-5xl mx-auto space-y-16">  
-
           {/* Jason Case */}
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
