@@ -181,17 +181,14 @@ export default function Home() {
           {/* Difficult Endo Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Uncle_Brian.jpg" 
+              src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/Uncle_Brian.jpg"
               alt="Uncle_Brian"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                右下第一大臼齒咬到就會痛<br />
-                移除填補物發現牙髓底部有三個大洞<br />
-                <span className="text-white font-semibold mr-2">→</span> 找到所有根管並用生物陶瓷修補大洞<br />
-                <span className="text-white font-semibold mr-2">→</span> 兩星期追蹤，可以正常咬東西
+                特殊案例: 根管穿孔之治療<br />
               </p>
             </div>
           </div>
@@ -201,57 +198,48 @@ export default function Home() {
           {/* Extensive Caries Restoration Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Lily.jpg" 
+              src="/JoeBingDDS/images/ClinicalCase/Aunt_Lily/Aunt_Lily.jpg" 
               alt="Aunt_Lily"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Lily</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上第二小臼齒容易卡食物，且有蛀牙痛<br />
-                牙齒嚴重蛀牙至牙齦下1-2mm，牙髓無活性<br />
-                <span className="text-white font-semibold mr-2">→</span> 先花一診60分鐘調整遠心側牙齦、重建齒質並移除發炎神經<br />
-                <span className="text-white font-semibold mr-2">→</span> 再花一診40分鐘完成根管治療<br />
-                <span className="text-white font-semibold mr-2">→</span> 一個星期追蹤，可以正常咬東西<br />
+                嚴重缺損齒質重建<br />
               </p>
             </div>
           </div>
 
           <hr className="my-8 border-t border-gray-300 w-full max-w-lg mx-auto" />
 
-          {/* Casual Endo Retreatment Case */}
+          {/* 15YO Tommy Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Hollie.jpg" 
-              alt="Aunt_Hollie"
+              src="/JoeBingDDS/images/ClinicalCase/Tommy/Tommy.png" 
+              alt="15YO_Tommy"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Hollie</h3>
+              <h3 className="text-white text-lg md:text-xl font-bold mb-2">#15YO_Tommy</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上側門牙臉頰側牙齦牙根處長膿包已經半年，有異味<br />
-                牙齒根管充填不緻密，根尖有明顯發炎，且牙冠頰側齒質穿孔<br />
-                <span className="text-white font-semibold mr-2">→</span> 一診60分鐘：先修復頰側齒質穿孔，再移除舊的根管填補物；根管除菌後，以生物陶瓷達成緻密封填<br />
-                <span className="text-white font-semibold mr-2">→</span> 兩星期追蹤，膿包消退，無異味
+                C型根管治療<br />
               </p>
             </div>
           </div>
 
           <hr className="my-8 border-t border-gray-300 w-full max-w-lg mx-auto" />
 
-          {/* Deep Supernumerary Tooth Extraction Case */}
+          {/* Jason Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/8-year-old_Abby.jpg" 
-              alt="8-year-old_Abby"
+              src="/JoeBingDDS/images/ClinicalCase/Jason/Jason.png" 
+              alt="Jason"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
-              <h3 className="text-white text-lg md:text-xl font-bold mb-2">#8-year-old_Abby</h3>
+              <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Jason</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                上顎左右正中門牙之間卡著倒長的多生牙，可能導致後續牙齒排列不整<br />
-                <span className="text-white font-semibold mr-2">→</span> 以最微創的方式翻開上顎牙齦，將多生牙整顆取出<br />
-                <span className="text-white font-semibold mr-2">→</span> 將牙齦精準對回原位，術後幾乎看不出傷口
+                大型根尖周圍病灶治療<br />
               </p>
             </div>
           </div>
@@ -261,18 +249,14 @@ export default function Home() {
           {/* Direct Pulp Capping Case */}
           <div className="flex flex-col md:flex-row items-center gap-6 justify-center">
             <img 
-              src="/JoeBingDDS/images/Aunt_Jennie.jpg" 
+              src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/Aunt_Jennie.jpg" 
               alt="Aunt_Jennie"
               className="w-full max-w-[250px] md:w-64 h-auto object-contain mb-4 md:mb-0 shadow-md bg-white p-2 border border-gray-200" 
             />
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                左上第二大臼齒容易卡食物，但不痛<br />
-                牙齒嚴重蛀牙至牙齦下2mm，牙髓有活性<br />
-                <span className="text-white font-semibold mr-2">→</span> 移除所有蛀牙齒質，牙髓暴露直徑1mm以內<br />
-                <span className="text-white font-semibold mr-2">→</span> 以 Sealapex (Kerr) 保護牙髓，Fuji II (GC) 做基底材料，最上方以樹酯作永久填補<br />
-                <span className="text-white font-semibold mr-2">→</span> 三個月追蹤，牙髓有活性，無不舒服
+                可逆性牙髓炎-直接牙髓覆蓋案例<br />
               </p>
             </div>
           </div>
