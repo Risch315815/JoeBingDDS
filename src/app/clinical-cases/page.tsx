@@ -26,11 +26,15 @@ export default function ClinicalCases() {
             <div className="flex flex-col justify-center text-center md:text-left md:pl-4 md:flex-1">
               <h3 className="text-lg md:text-xl font-bold mb-2">#直接覆髓案例</h3>
               <p className="text-base md:text-xl font-normal">
-                左上第二大臼齒有嚴重蛀牙，X光顯示接近牙髓<br />
-                移除所有 infected dentin 後，已打開髓腔，但大小在1mm以內<br />
-                <span className="text-gold-400 font-semibold mr-2">→</span> 牙髓開口以 2.5% NaOCl 清潔，蓋上直接覆髓材料 Sealapex (Kerr)<br />
+                42歲女性患者自述左上第二大臼齒有窩洞，無不適<br />
+                臨床發現左上第二大臼齒近心連接面有深蛀牙，無敲及咬痛，電髓測試正常，冷測試較正常齒稍為敏感；X光顯示窩洞接近牙髓<br />
+                臨床診斷: tooth #27: reversible pulpitis, normal apical tissue<br />
+                建議患者進行窩洞填補，但因窩洞較深，會視情況進行直接窩洞填補/pulpotomy/pulpectomy，患者同意<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以 Lidocaine HCL 2% with Epinephrine 1:100000, 1.7ml Cartridges一管做#27頰舌側浸潤式麻醉<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 以 rubber dam 隔濕，移除所有 infected dentin 後，髓腔已暴露，但大小在1mm以內，且牙髓出血不顯著<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 窩洞以 5.25% NaOCl 清潔，蓋上直接覆髓材料 Kerr Life - Regular Set(Ca(OH)2)<br />
                 <span className="text-gold-400 font-semibold mr-2">→</span> 以玻璃離子體 (Fuji II LC) 做基底，再用複合樹脂填補咬合面<br />
-                <span className="text-gold-400 font-semibold mr-2">→</span> 3個月及6個月追蹤，病人無不適，牙髓活性仍存在<br />
+                <span className="text-gold-400 font-semibold mr-2">→</span> 3個月及6個月追蹤，該牙齒無不適，牙髓活性正常<br />
               </p>
             </div>
           </div>
@@ -43,11 +47,6 @@ export default function ClinicalCases() {
           {/* Difficult Root Canal Retreatment Case */}
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
-              <img 
-                src="/JoeBingDDS/images/Uncle_Brian.jpg" 
-                alt="根管重新治療案例"
-                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
-              />
               <img 
                 src="/JoeBingDDS/images/ClinicalCase/Uncle_Brian/001.jpg" 
                 alt="根管治療前X光"
