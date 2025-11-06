@@ -12,19 +12,24 @@ export default function ClinicalCases() {
           {/* Direct Pulp Capping Case */}
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start gap-6 bg-black text-white p-8 rounded-lg">
             <div className="grid grid-cols-2 gap-2 w-full max-w-[300px]">
-              <img 
-                src="/JoeBingDDS/images/Aunt_Jennie.jpg" 
-                alt="直接覆髓案例"
-                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+            <img 
+              src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/000.webp" 
+              alt="初始"
+              className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
-              <img 
-                src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/002.png" 
-                alt="追蹤"
-                className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+            <img 
+              src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/001.webp" 
+              alt="完成立即"
+              className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
+            />
+            <img 
+              src="/JoeBingDDS/images/ClinicalCase/Aunt_Jennie/002.png" 
+              alt="6M追蹤"
+              className="w-full h-auto object-contain shadow-md bg-white p-1 border border-gray-200" 
               />
             </div>
             <div className="flex flex-col justify-center text-center md:text-left md:pl-4 md:flex-1">
-              <h3 className="text-lg md:text-xl font-bold mb-2">#直接覆髓案例</h3>
+              <h3 className="text-lg md:text-xl font-bold mb-2">#Aunt_Jennie</h3>
               <p className="text-base md:text-xl font-normal">
                 42歲女性患者自述左上第二大臼齒有窩洞，無不適<br />
                 臨床發現左上第二大臼齒近心連接面有深蛀牙，無敲及咬痛，電髓測試正常，冷測試較正常齒稍為敏感；X光顯示窩洞接近牙髓<br />
