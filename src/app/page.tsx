@@ -188,7 +188,7 @@ export default function Home() {
             <div className="flex flex-col justify-center text-center md:text-left">
               <h3 className="text-white text-lg md:text-xl font-bold mb-2">#Uncle_Brian</h3>
               <p className="text-white text-base md:text-xl font-normal">
-                特殊案例: 根管穿孔之治療<br />
+                根管穿孔之治療<br />
               </p>
             </div>
           </div>
