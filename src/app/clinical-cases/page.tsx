@@ -6,7 +6,7 @@ export default function ClinicalCases() {
       <div className="container mx-auto px-4">
 
         {/* OD Section */}
-        <h2 className="text-4xl font-bold text-center mb-12">牙體復型</h2>
+        <h2 className="text-4xl font-bold text-center mb-6">牙體復型</h2>
         <div className="max-w-5xl mx-auto space-y-16">
 
           {/* Direct Pulp Capping Case */}
@@ -36,13 +36,8 @@ export default function ClinicalCases() {
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto space-y-16">
-        </div>
-        <div className="max-w-5xl mx-auto space-y-16">
-        </div>
-
         {/* Endo Section */}
-        <h2 className="text-4xl font-bold text-center mb-12">牙髓病症治療</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 mt-24">牙髓病症治療</h2>
         <div className="max-w-5xl mx-auto space-y-16">
 
           {/* Difficult Root Canal Retreatment Case */}
@@ -145,9 +140,6 @@ export default function ClinicalCases() {
                 <span className="text-gold-400 font-semibold mr-2">→</span> 兩星期追蹤，垂直敲診不適感減緩<br />
               </p>
             </div>
-          </div>
-
-          <div className="max-w-5xl mx-auto space-y-16">
           </div>
 
           {/* Jason Case */}
