@@ -322,30 +322,30 @@ export default function Home() {
                   <th className="p-3 text-center border border-gray-700">星期二</th>
                   <th className="p-3 text-center border border-gray-700">星期三</th>
                   <th className="p-3 text-center border border-gray-700">星期四</th>
-                  <th className="p-3 text-center border border-gray-700"></th>
                   <th className="p-3 text-center border border-gray-700">星期五</th>
                   <th className="p-3 text-center border border-gray-700">星期六</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border border-gray-700">
-                  <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700">
-                    09:00<br />|<br />12:00
+                    上午門診
                   </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
+                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫" className="w-16 h-16 mx-auto" />
+                    <img src="/JoeBingDDS/images/UCome_logo.png" alt="悅康牙醫" className="w-16 h-16 mx-auto" />
                   </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
+
                 <tr className="border border-gray-700">
                   <td className="p-3 text-center border border-gray-700">
-                    14:30<br />|<br />17:30
+                    下午門診
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
@@ -356,19 +356,15 @@ export default function Home() {
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700">
-                    14:15<br />|<br />17:15
-                  </td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
-                    <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫" className="w-16 h-16 mx-auto" />
-                  </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
+
                 <tr className="border border-gray-700">
                   <td className="p-3 text-center border border-gray-700">
-                    18:30<br />|<br />21:00
+                    晚上門診
                   </td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
@@ -380,9 +376,8 @@ export default function Home() {
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700">
-                    18:00<br />|<br />21:00
+                    <img src="/JoeBingDDS/images/UCome_logo.png" alt="悅康牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700"></td>
                 </tr>
               </tbody>
@@ -417,22 +412,22 @@ export default function Home() {
           <div className="max-w-5xl mx-auto bg-gold-200 p-8 shadow-md mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="text-center">
-                <img src="/JoeBingDDS/images/FL_logo.png" alt="楓鄰牙醫診所" className="w-48 h-48 mx-auto mb-4" />
+                <img src="/JoeBingDDS/images/UCome_logo.png" alt="悅康牙醫診所" className="w-48 h-48 mx-auto mb-4" />
               </div>
               
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">楓鄰牙醫診所</h3>
-                <p className="text-xl mb-2">臺南市永康區東橋一路416號</p>
-                <p className="text-xl mb-2">(06) 3023485</p>
+                <h3 className="text-2xl font-bold mb-4">悅康牙醫診所</h3>
+                <p className="text-xl mb-2">臺南市仁德區仁義一街99號</p>
+                <p className="text-xl mb-2">(06)2497689</p>
                 <p className="text-xl mb-2">
-                  <a href="https://line.me/R/ti/p/@970jqmky" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    https://line.me/R/ti/p/@970jqmky
+                  <a href="https://www.dentco.tw/clinic/3705270027#ClinicContact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    https://www.dentco.tw/clinic/3705270027#ClinicContact
                   </a>
                 </p>
               </div>
               
               <div className="text-center md:text-right">
-                <img src="/JoeBingDDS/images/FL_line.jpg" alt="楓鄰牙醫診所LINE QR Code" className="w-48 h-48 mx-auto md:ml-auto" />
+                <img src="/JoeBingDDS/images/UCome_QR.png" alt="悅康牙醫診所網站QR" className="w-48 h-48 mx-auto md:ml-auto" />
               </div>
             </div>
           </div>
