@@ -43,7 +43,7 @@ export default function Home() {
             {/* Past Training */}
             <div className="text-gray-800 text-lg mb-6">
               <p className="mb-1">台北長庚紀念醫院 住院醫師</p>
-              <p className="mb-1">台中榮民總醫院 實習</p>
+              <p className="mb-1">台中榮民總醫院 實習醫師</p>
               <p className="mb-1">高雄醫學大學牙醫系 畢業</p>
               <p className="mb-1">台南一中</p>
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
           <h2 className="text-gold-300 text-3xl font-bold text-center mb-12">專業認證</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-            {/* Implant Certificate */}
+            {/* College Graduation Certificate */}
             <div className="bg-gold-200 p-6 shadow-md">
             <div className="mb-4">
               <img 
@@ -79,6 +79,44 @@ export default function Home() {
               />
             </div>
               <h3 className="text-xl font-semibold mb-2">高雄醫學大學牙醫系 畢業證書</h3>
+            </div>
+
+             {/* TAID 2025 Membership */}
+             <div className="bg-gold-200 p-6 shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/JoeBingDDS/images/TAID_implant_certificate_2025.jpg" 
+                  alt="TAID_implant_certificate_2025.jpg"
+                  className="w-auto h-auto" 
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">台灣牙醫植體醫學會 會員</h3>
+            </div>
+
+            {/* Invisalign Certificate */}
+            <div className="bg-gold-200 p-6 shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/JoeBingDDS/images/Invisalign_Certificate.jpg" 
+                  alt="Invisalign_Certificate.jpg"
+                  className="w-auto h-auto" 
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">隱適美認證醫師</h3>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+            {/* Oral Scanner Certificate */}
+            <div className="bg-gold-200 p-6 shadow-md">
+              <div className="mb-4">
+                <img 
+                  src="/JoeBingDDS/images/Oral_Scanner_Certificate.jpg" 
+                  alt="Oral_Scanner_Certificate.jpg"
+                  className="w-auto h-auto" 
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">3Shape口掃機認證醫師</h3>
             </div>
 
             {/* IAOP Presentation */}
@@ -100,13 +138,14 @@ export default function Home() {
             <div className="bg-gold-200 p-6 shadow-md">
               <div className="mb-4">
               <img 
-                src="/JoeBingDDS/images/TADS_TMJ_Presentation.png" 
-                alt="TADS_TMJ_Presentation"
+                src="/JoeBingDDS/images/SEAADE_2025_MRONJ.jpg" 
+                alt="SEAADE_2025_MRONJ.jpg"
                 className="w-auto h-auto" 
               />
             </div>
-              <h3 className="text-xl font-normal mb-2">2023年中華牙醫學年會：</h3>
-              <h3 className="text-xl font-semibold mb-2">針灸減緩顳顎關節障礙症候群之疼痛</h3>
+              <h3 className="text-xl font-normal mb-2">2025年中華牙醫學年會：</h3>
+              <h3 className="text-xl font-semibold mb-2">抗骨吸收藥物相關顎骨壞死(MRONJ)</h3>
+              <h3 className="text-xl font-semibold mb-2">發生機率之研究與衛教平台</h3>
             </div>
           </div>
         </div>
