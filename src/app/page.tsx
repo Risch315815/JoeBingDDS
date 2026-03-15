@@ -53,13 +53,10 @@ export default function Home() {
             {/* Treatment */}
             <h2 className="text-2xl font-bold mb-4">治療項目</h2>
             <ul className="text-gray-700 text-lg space-y-1">
-              <li>牙周深層清潔</li>
-              <li>牙髓病症治療</li>
-              <li>美學假牙贋復</li>
-              <li>全口重建</li>
-              <li>乳牙齲齒預防與修復</li>
-              <li>一般阻生齒拔除</li>
-              <li>植牙</li>
+              <li>牙周照護</li>
+              <li>蛀牙填補</li>
+              <li>根管治療</li>
+              <li>精密假牙</li>
             </ul>
 
           </div>
