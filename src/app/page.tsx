@@ -319,6 +319,7 @@ export default function Home() {
               <thead>
                 <tr className="border border-gray-700">
                   <th className="p-3 text-center"></th>
+                  <th className="p-3 text-center border border-gray-700">星期一</th>
                   <th className="p-3 text-center border border-gray-700">星期二</th>
                   <th className="p-3 text-center border border-gray-700">星期三</th>
                   <th className="p-3 text-center border border-gray-700">星期四</th>
@@ -347,6 +348,7 @@ export default function Home() {
                   <td className="p-3 text-center border border-gray-700">
                     下午門診
                   </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
@@ -366,6 +368,7 @@ export default function Home() {
                   <td className="p-3 text-center border border-gray-700">
                     晚上門診
                   </td>
+                  <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700 bg-gray-800">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
