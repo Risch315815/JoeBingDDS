@@ -397,10 +397,10 @@ export default function Home() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">理想牙醫診所</h3>
                 <p className="text-xl mb-2">高雄市楠梓區旗楠路 86 號</p>
-                <p className="text-xl mb-2">(07)3553083</p>
+                <p className="text-xl mb-2">(07) 3553083</p>
                 <p className="text-xl mb-2">
                   <a href="https://lin.ee/qrLZRzm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    https://lin.ee/qrLZRzm
+                    LINE 官方帳號
                   </a>
                 </p>
               </div>
@@ -421,10 +421,10 @@ export default function Home() {
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">悅康牙醫診所</h3>
                 <p className="text-xl mb-2">臺南市仁德區仁義一街99號</p>
-                <p className="text-xl mb-2">(06)2497689</p>
+                <p className="text-xl mb-2">(06) 2497689</p>
                 <p className="text-xl mb-2">
                   <a href="https://www.dentco.tw/clinic/3705270027#ClinicContact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    https://www.dentco.tw/clinic/3705270027#ClinicContact
+                    牙醫小幫手網站
                   </a>
                 </p>
               </div>
