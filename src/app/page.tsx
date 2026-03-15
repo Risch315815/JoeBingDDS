@@ -335,11 +335,11 @@ export default function Home() {
                   <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700"></td>
                   <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/UCome_logo.png" alt="悅康牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
@@ -349,17 +349,17 @@ export default function Home() {
                     下午門診
                   </td>
                   <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Mula_logo.jpg" alt="沐樂牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                 </tr>
@@ -369,13 +369,13 @@ export default function Home() {
                     晚上門診
                   </td>
                   <td className="p-3 text-center border border-gray-700"></td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
-                  <td className="p-3 text-center border border-gray-700 bg-gray-800">
+                  <td className="p-3 text-center border border-gray-700">
                     <img src="/JoeBingDDS/images/Ideal_logo.jpg" alt="理想牙醫" className="w-16 h-16 mx-auto" />
                   </td>
                   <td className="p-3 text-center border border-gray-700">
