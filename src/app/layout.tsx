@@ -33,7 +33,8 @@ export default function RootLayout({
               <div className="flex flex-wrap justify-center space-x-6">
                 <a href="/JoeBingDDS/" className="text-gray-300 hover:text-gold-400">首頁<br className="sm:hidden" /></a>
                 <a href="/JoeBingDDS/#certificate" className="text-gray-300 hover:text-gold-400">專業認證<br className="sm:hidden" /></a>
-                <a href="/JoeBingDDS/#schedule" className="text-gray-300 hover:text-gold-400">看診時段</a>
+                <a href="/JoeBingDDS/#schedule" className="text-gray-300 hover:text-gold-400">看診時段<br className="sm:hidden" /></a>
+                <a href="/JoeBingDDS/#instruction" className="text-gray-300 hover:text-gold-400">衛教專區</a>
               </div>
             </div>
           </nav>
