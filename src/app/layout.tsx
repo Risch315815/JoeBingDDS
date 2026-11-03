@@ -2,6 +2,7 @@ import React from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Header from './Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,23 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-black shadow-md">
-          <nav className="container mx-auto px-4 py-4">
-            <div className="flex flex-col sm:flex-row justify-between items-center">
-              <div className="text-2xl font-normal text-white text-center sm:text-left mb-4 sm:mb-0">
-                徐振傑 牙醫師 <br className="sm:hidden" /> 
-                <span className="hidden sm:inline">| </span> 
-                <span className="sm:hidden">Dr.</span>Chen-Chieh Hsu D.D.S.<br className="sm:hidden" />
-              </div>
-              <div className="flex flex-wrap justify-center space-x-6">
-                <a href="/JoeBingDDS/" className="text-gray-300 hover:text-gold-400">首頁<br className="sm:hidden" /></a>
-                <a href="/JoeBingDDS/#certificate" className="text-gray-300 hover:text-gold-400">專業認證<br className="sm:hidden" /></a>
-                <a href="/JoeBingDDS/#schedule" className="text-gray-300 hover:text-gold-400">看診時段<br className="sm:hidden" /></a>
-                <a href="https://risch315815.github.io/Animal_Hospital_Dental_Department/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gold-400">衛教專區</a>
-              </div>
-            </div>
-          </nav>
-        </header>
+        <Header />
 
 
         <main className="min-h-screen">
