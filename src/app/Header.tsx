@@ -11,15 +11,17 @@ const nav = {
     homeHref: '/JoeBingDDS/',
     certificatesHref: '/JoeBingDDS/#certificate',
     scheduleHref: '/JoeBingDDS/#schedule',
+    educationHref: 'https://risch315815.github.io/Animal_Hospital_Dental_Department/',
   },
   en: {
     home: 'Home',
     certificates: 'Certifications',
     schedule: 'Consultation Hours',
-    education: 'Patient Education',
+    education: 'Portfolio',
     homeHref: '/JoeBingDDS/en',
     certificatesHref: '/JoeBingDDS/en#certificate',
     scheduleHref: '/JoeBingDDS/en#schedule',
+    educationHref: 'https://risch315815.github.io/Animal_Hospital_Dental_Department/en',
   },
   jp: {
     home: 'ホーム',
@@ -29,6 +31,7 @@ const nav = {
     homeHref: '/JoeBingDDS/jp',
     certificatesHref: '/JoeBingDDS/jp#certificate',
     scheduleHref: '/JoeBingDDS/jp#schedule',
+    educationHref: 'https://risch315815.github.io/Animal_Hospital_Dental_Department/',
   },
 }
 
@@ -50,7 +53,7 @@ export default function Header() {
             <a href={t.homeHref} className="text-gray-300 hover:text-gold-400">{t.home}<br className="sm:hidden" /></a>
             <a href={t.certificatesHref} className="text-gray-300 hover:text-gold-400">{t.certificates}<br className="sm:hidden" /></a>
             <a href={t.scheduleHref} className="text-gray-300 hover:text-gold-400">{t.schedule}<br className="sm:hidden" /></a>
-            <a href="https://risch315815.github.io/Animal_Hospital_Dental_Department/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gold-400">{t.education}</a>
+            <a href={t.educationHref} target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-gold-400">{t.education}</a>
           </div>
         </div>
       </nav>
